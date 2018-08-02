@@ -1,0 +1,15 @@
+You can change the OBJ file path in OBJAttribute.h  #define FILE_PATH "model1.obj"
+
+I implemented all three extra tasks though some render results seem strange. You can see the render results in snapShot. model3.obj is the object that has more than 3 sides.
+
+Vector3f.hpp defines the 3d vectors’ attribute and their basic operation.
+
+Material.hpp defines the Phong materials attribute.
+
+Ray.hpp defines attributes of the ray.
+
+Camera.hpp defines camera information
+
+RGBColor defines color attributes and color’s operation.
+
+TSample defines when a light hits a triangle sample, how to calculate intersection information and how to get the color in the triangle when use different render method.

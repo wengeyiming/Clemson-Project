@@ -1,0 +1,17 @@
+Name:Yiming Wen
+
+Clemson Email Address:wen4@g.clemson.edu
+
+Project no:6
+
+Project due date:Dec.13, 2017, 3 p.m.
+
+Project description:(1)In this project my solution should be able to translate Python parameters including actual parameters and formal parameters
+(2) In addition, the solution must implement recursion
+
+For formal parameters, add ParameterNode. For actual parameters, add ArgumentNode. As a python function can have any number of parameter, we should design a vector to save these parameters.We should also need a function to get Argument name.
+
+The easiest part of this project:Design test cases.
+
+Problems that I had in completing this project:(1) Design the best data structure to handle parameter problem.
+ 

@@ -1,0 +1,432 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>Yiming Wen</username>
+
+<numberOfSmart>5</numberOfSmart>
+<numberOfLife>5</numberOfLife>
+
+
+<collisionStrategy>Rectangular</collisionStrategy>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>480</height>
+</world>
+
+<foreground>
+  <file>assets/foreground.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</foreground>
+
+<background>
+    <file>assets/background.png</file>
+    <factor>1</factor>
+    <transparency>false</transparency>
+</background>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<textColor>
+  <red>255</red>
+  <green>250</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</textColor>
+
+<Mickey>
+  <file>assets/mickeysprite.png</file>
+  <startLoc x="400" y="240"/>
+  <frames>4</frames>
+  <imageWidth>78</imageWidth>
+  <imageHeight>96</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+</Mickey>
+
+<Donald>
+  <file>assets/donaldsprite.png</file>
+  <startLoc x="100" y="100"/>
+  <frames>4</frames>
+  <imageWidth>76</imageWidth>
+  <imageHeight>104</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</Donald>
+
+<Soldier>
+  <file>assets/soldierspriteright.png</file>
+  <startLoc x="100" y="100"/>
+  <frames>6</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>102</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</Soldier>
+
+
+<SoldierLeft>
+  <file>assets/soldierspriteleft.png</file>
+  <startLoc x="100" y="100"/>
+  <frames>6</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>102</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SoldierLeft>
+
+<Bullet1>
+  <file>assets/bullet1.png</file>
+  <interval>300</interval>
+  <distance>500</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+  <frames>1</frames>
+  <imageWidth>36</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>200</frameInterval>
+</Bullet1>
+
+
+<Bullet2>
+  <file>assets/bullet1.png</file>
+  <interval>300</interval>
+  <distance>500</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+  <frames>1</frames>
+  <imageWidth>36</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>200</frameInterval>
+</Bullet2>
+
+<Scarlet>
+  <file>assets/scarlet.png</file>
+  <startLoc x="1300" y="300"/>
+  <frames>4</frames>
+  <imageWidth>129</imageWidth>
+  <imageHeight>76</imageHeight>
+  <frameInterval>300</frameInterval>
+  <speedX>0</speedX>
+  <speedY>200</speedY>
+  <life>5</life>
+  <transparency>false</transparency>
+  <bossBullet>Bullet2</bossBullet>
+</Scarlet>
+
+
+<SoldierAttack>
+  <file>assets/soldierattack.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>2</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>84</imageHeight>
+  <frameInterval>300</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+  <bullet>Bullet1</bullet>
+</SoldierAttack>
+
+<SoldierAttackLeft>
+  <file>assets/soldierattackleft.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>2</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>84</imageHeight>
+  <frameInterval>300</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SoldierAttackLeft>
+
+
+<SoldierAttack1>
+  <file>assets/soldierattack1.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>3</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>84</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SoldierAttack1>
+
+<SoldierAttack1Left>
+  <file>assets/soldierattack1left.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>3</frames>
+  <imageWidth>82</imageWidth>
+  <imageHeight>84</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SoldierAttack1Left>
+
+
+<ManReady>
+  <file>assets/manready.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>5</frames>
+  <imageWidth>179</imageWidth>
+  <imageHeight>114</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</ManReady>
+
+<ManReadyLeft>
+  <file>assets/manreadyleft.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>5</frames>
+  <imageWidth>180</imageWidth>
+  <imageHeight>114</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</ManReadyLeft>
+
+<ManWalk>
+  <file>assets/manwalk.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>6</frames>
+  <imageWidth>180</imageWidth>
+  <imageHeight>114</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</ManWalk>
+
+<ManWalkLeft>
+  <file>assets/manwalkleft.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>6</frames>
+  <imageWidth>180</imageWidth>
+  <imageHeight>114</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</ManWalkLeft>
+
+<Coin>
+  <file>assets/coin.png</file>
+  <startLoc x="1500" y="50"/>
+  <frames>4</frames>
+  <imageWidth>60</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Coin>
+
+<Coin1>
+  <file>assets/coin.png</file>
+  <startLoc x="1500" y="200"/>
+  <frames>4</frames>
+  <imageWidth>60</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Coin1>
+
+
+<Coin2>
+  <file>assets/coin.png</file>
+  <startLoc x="1500" y="350"/>
+  <frames>4</frames>
+  <imageWidth>60</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Coin2>
+
+
+<Diamond>
+  <file>assets/diamond.png</file>
+  <startLoc x="500" y="200"/>
+  <frames>1</frames>
+  <imageWidth>41</imageWidth>
+  <imageHeight>75</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Diamond>
+
+
+<Fish>
+  <file>assets/fishright.png</file>
+  <startLoc x="400" y="100"/>
+  <frames>2</frames>
+  <imageWidth>120</imageWidth>
+  <imageHeight>72</imageHeight>a
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>100</distance>
+  </chunk>
+</Fish>
+
+
+<FishLeft>
+  <file>assets/fishleft.png</file>
+  <startLoc x="400" y="100"/>
+  <frames>2</frames>
+  <imageWidth>120</imageWidth>
+  <imageHeight>72</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+</FishLeft>
+
+<Fish1>
+  <file>assets/fish1right.png</file>
+  <startLoc x="400" y="100"/>
+  <frames>2</frames>
+  <imageWidth>120</imageWidth>
+  <imageHeight>72</imageHeight>a
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>100</distance>
+  </chunk>
+</Fish1>
+
+
+<Fish1Left>
+  <file>assets/fish1left.png</file>
+  <startLoc x="400" y="100"/>
+  <frames>2</frames>
+  <imageWidth>120</imageWidth>
+  <imageHeight>72</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+</Fish1Left>
+
+
+
+<Life>
+  <file>assets/yellowstar.png</file>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <transparency>false</transparency>
+</Life>
+
+<Heart>
+  <file>assets/heart.png</file>
+  <imageWidth>26</imageWidth>
+  <imageHeight>26</imageHeight>
+  <transparency>false</transparency>
+</Heart>
+
+
+
+<Hud>
+  <positionX>150</positionX>
+  <positionY>120</positionY>
+  <width>550</width>
+  <height>240</height>
+  <red>100</red>
+  <green>100</green>
+  <blue>100</blue>
+  <alpha>0</alpha>
+  <informationW>W:    Go up</informationW>
+  <informationS>S:     Go down</informationS>
+  <informationA>A:     Go left</informationA>
+  <informationD>D:     Go right</informationD>
+  <informationSpace>Space:   Fire</informationSpace>
+  <informationG>G:     GodMode</informationG>
+  <informationR>R:     Restart</informationR>
+  <informationWin>Get all three coins to win!</informationWin>
+  <informationDistance>20</informationDistance>
+</Hud>
+
+<PoolHud>
+  <positionX>600</positionX>
+  <positionY>10</positionY>
+  <width>200</width>
+  <height>100</height>
+  <bulletList>Bullet List:  </bulletList>
+  <freeList>Free List:  </freeList>
+</PoolHud>
+
+
+<EndHud>
+  <positionX>150</positionX>
+  <positionY>120</positionY>
+  <width>550</width>
+  <height>240</height>
+  <red>100</red>
+  <green>100</green>
+  <blue>100</blue>
+  <alpha>0</alpha>
+  <informationWin>   You     Win!</informationWin>
+  <informationLost>   You     Lost!</informationLost>
+  <informationR>Press R to Restart</informationR>
+  <informationDistance>20</informationDistance>
+</EndHud>
+
+
+</GameData>

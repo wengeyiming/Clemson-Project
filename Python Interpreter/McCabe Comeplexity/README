@@ -1,0 +1,13 @@
+Name:Yiming Wen
+
+Clemson Email Address:wen4@g.clemson.edu
+
+Project no:3
+
+Project due date:Oct. 13, 2017, 8 a.m.
+
+Project description:Print the complexity measure as a three tuple where the items in the tuple are: (1) the line number of the beginning of the function; (2) the name of the function, quoted to indicate that it’s a string; and (3) the cyclomatic complexity of the function. Add test cases to the directory cases to adequately test your tool.
+
+The easiest part of this project:Output correct form of answer.
+
+Problems that I had in completing this project:(1) Find the correct place to interpolate code.(2) Design test cases.

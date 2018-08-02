@@ -1,0 +1,14 @@
+Name:Yiming Wen
+
+Clemson Email Address:wen4@g.clemson.edu
+
+Project no:4
+
+Project due date:Nov. 13, 2017, 8 a.m.
+
+Project description:Use myPython to build an AST representation of the language constructs for expressions that appear in the global namespace of a Python program.The detailed tasks include:(1) Design and implement an Abstract Syntax Tree (AST) to represent and interpret  Python code.(2)handle integer and float values and variables, print, assignment, and expressions such as: {x + y, x − y, x ∗ y, x/y, x//y, x%y, x**e, (x), −x, +x}. 
+(3)Interpret the following additional forms of assignment:{ x+ = y, x− = y, x∗ = y, x/ = y, x// = y, x% = y }.
+
+The easiest part of this project:Design test cases.
+
+Problems that I had in completing this project:(1) Find the correct place to interpolate code, especially handle the difference between // and /.(2)Design the correct data structure to handle unary operator.

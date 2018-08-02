@@ -1,0 +1,18 @@
+Name:Yiming Wen
+
+Clemson Email Address:wen4@g.clemson.edu
+
+Project no:5
+
+Project due date:Dec.08, 2017, 8 a.m.
+
+Project description:(1)In this project my solution should be able to translate Python functions, including scope resolution and return value.
+(2) In addition, the solution should also translate if/else, but don’t need to translate elif.
+
+In order to implement these requirements, we should change some data structures used in project 4. As we should translate functions, we need a new class functionTable to save information like functionName and its suite. As this table is similar with symbolTable which records the variable name and value, we should remove the singleton attribute in the symbolTable and create a new table called TableManager, it has the singleton attribute, only has one instance and manages the functionTable and symbolTable.
+For if/else, the main problem is to handle the values compared in judge statement, so we must create some new operatorNode like project 4 to make judgement. We should also create a new Node called IfNode to determine whether to go in if suite or else suite.
+
+The easiest part of this project:Design test cases.
+
+Problems that I had in completing this project:(1) Understand the whole logic in function implementation and choose the best data structure from one Table and two Tables. Design the whole logic from the data structure chosen. (2) Understand the parse tree logic in parse.y and find the correct place to interpolate code.
+ 
